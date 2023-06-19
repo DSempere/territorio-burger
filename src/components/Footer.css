@@ -1,0 +1,135 @@
+.sec_padding {
+    padding: 2rem 2rem;
+}
+
+.footer {
+    background-color: #272727;
+}
+
+.sec_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sec_footer-links-div {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia img {
+    width: 40%;
+
+}
+
+.sec_footer-text h4 {
+    color: white;
+    font-size: 20px;
+    line-height: 17px;
+
+}
+
+.sec_footer-text p {
+    font-size: 16px;
+    color: white;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    align-items: center;
+}
+
+.sec_footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+
+.sec_footer-below-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec_footer-below-links p {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+hr {
+    color: white !important;
+    width: 100%;
+}
+
+.sec_footer-copyright p {
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width:850px) {
+    .sec_footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and(max-width:550px) {
+    .sec_footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .sec_fotter-links-div {
+        margin: 1rem 0;
+    }
+
+    .sec_footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sec_footer-below {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sec_footer-below-links p {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sec_footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
